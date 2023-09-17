@@ -63,20 +63,22 @@
             margin-top: 7px;
         }
         .product {
-            width: 20%;
-            border: 2px solid #4732fdb0;
+            width: calc(20% - 20px); /* Calcula o tamanho com base na largura da tela e adiciona um espaçamento entre os produtos */
+            margin-right: 20px; /* Adiciona espaçamento entre os produtos na horizontal */
             margin-bottom: 20px;
             padding: 15px;
             background-color: #ffffff6c;
-            box-shadow: 0 1 2px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s ease-in-out;
-            display: none; /* Inicialmente, todos os produtos estão ocultos */
+            display: inline-block; /* Exibe os produtos lado a lado */
+            box-sizing: border-box; /* Certifica-se de que a borda não aumente o tamanho total */
         }
+        
         .product:hover {
             transform: scale(1.05);
         }
         .product img {
-            max-width: 100%;
+            max-width: 90%;
             height: auto;
             border: 1px solid #ddd;
             border-radius: 8px;
