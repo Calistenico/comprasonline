@@ -630,7 +630,6 @@
             <!-- Adicione mais produtos conforme necessário -->
             
         </div>
-    </div>
 
     <script>
         function showProducts(category) {
@@ -644,7 +643,6 @@
             });
         }
 
-        // Mostrar os produtos da categoria "Celulares" por padrão ao carregar a página
         showProducts('inicio');
     </script>
 </body>
