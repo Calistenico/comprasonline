@@ -116,7 +116,7 @@
         /* Estilos adicionais aqui */
         .spotify-player {
             border-radius: 5px;
-            width: 22%;
+            width: 38%;
             height: 80px;
         }
         .product-price {
