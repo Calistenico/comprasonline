@@ -663,43 +663,31 @@
                     <p class="product-price">R$ 22,39</p>
                 </div>
                 
-    
-    
-    
-    
-                        
+
+                 <div class="product diversos">
+
+                   <!-- Resto do seu código dos jogos aqui -->
                 
-                <section class="contact">
-                    <h2 class="section-title">Contato</h2>
-                    <p>Entre em contato conosco nas redes sociais:</p>
-                    <ul class="social-links">
-                    <li><a href="https://www.instagram.com/o_tal_do_pirata_ofc" target="_blank">Instagram</a></li>
-                    <li><a href="https://wa.me/48999626351" target="_blank">WhatsApp</a></li>
-                    <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
-                    </ul>
-                 </section>
-     
-                 <div class="product diversos"></div>
                 <div>
-                 <iframe src="https://html5.gamedistribution.com/e74a2983137342ab862cb20fb8e71446/?gd_sdk_referrer_url=https://www.example.com/games/{game-path}" width="800" height="600" scrolling="none" frameborder="0"></iframe>
+                <iframe src="https://html5.gamedistribution.com/e74a2983137342ab862cb20fb8e71446/?gd_sdk_referrer_url=https://www.example.com/games/{game-path}" width="800" height="600" scrolling="none" frameborder="0"></iframe>
                 </div>
                 <div>
                 <iframe src="https://html5.gamedistribution.com/8738501f3ea04285a2e29638eb1b6d3c/?gd_sdk_referrer_url=https://www.example.com/games/{game-path}" width="800" height="600" scrolling="none" frameborder="0"></iframe>
                 </div>
                 <div>
-                 <iframe src="https://html5.gamedistribution.com/80cf8e94d5af458e822afc6c9f5766e0/?gd_sdk_referrer_url=https://www.example.com/games/{game-path}" width="960" height="540" scrolling="none" frameborder="0"></iframe>
+                <iframe src="https://html5.gamedistribution.com/80cf8e94d5af458e822afc6c9f5766e0/?gd_sdk_referrer_url=https://www.example.com/games/{game-path}" width="960" height="540" scrolling="none" frameborder="0"></iframe>
                 </div>
                 <div>
-                 <iframe src="https://html5.gamedistribution.com/0480126a8391463fb4a625aecbdae55b/?gd_sdk_referrer_url=https://www.example.com/games/{game-path}" width="800" height="600" scrolling="none" frameborder="0"></iframe>
+                <iframe src="https://html5.gamedistribution.com/0480126a8391463fb4a625aecbdae55b/?gd_sdk_referrer_url=https://www.example.com/games/{game-path}" width="800" height="600" scrolling="none" frameborder="0"></iframe>
                 </div>
                 <div>
-                 <iframe src="https://html5.gamedistribution.com/28aad67b0b39407c93b372e83cb8cc88/?gd_sdk_referrer_url=https://www.example.com/games/{game-path}" width="1024" height="768" scrolling="none" frameborder="0"></iframe>
+                <iframe src="https://html5.gamedistribution.com/28aad67b0b39407c93b372e83cb8cc88/?gd_sdk_referrer_url=https://www.example.com/games/{game-path}" width="1024" height="768" scrolling="none" frameborder="0"></iframe>
                 </div>
                 <div>
-                 <iframe src="https://html5.gamedistribution.com/812553b75a8044d4accda34030c63050/?gd_sdk_referrer_url=https://www.example.com/games/{game-path}" width="800" height="600" scrolling="none" frameborder="0"></iframe>
+                <iframe src="https://html5.gamedistribution.com/812553b75a8044d4accda34030c63050/?gd_sdk_referrer_url=https://www.example.com/games/{game-path}" width="800" height="600" scrolling="none" frameborder="0"></iframe>
                 </div>
                 <div>
-                 <iframe src="https://html5.gamedistribution.com/b5e69d9778554b0e9cb0a6d5d6a0e43d/?gd_sdk_referrer_url=https://www.example.com/games/{game-path}" width="1280" height="720" scrolling="none" frameborder="0"></iframe>
+                <iframe src="https://html5.gamedistribution.com/b5e69d9778554b0e9cb0a6d5d6a0e43d/?gd_sdk_referrer_url=https://www.example.com/games/{game-path}" width="1280" height="720" scrolling="none" frameborder="0"></iframe>
                 </div>
                 <div>
                  <iframe src="https://html5.gamedistribution.com/88adef5e4b2b4776ac9f6264d3055065/?gd_sdk_referrer_url=https://www.example.com/games/{game-path}" width="800" height="600" scrolling="none" frameborder="0"></iframe>
@@ -718,7 +706,16 @@
                  </div>
      
             <!-- Adicione produtos conforme necessário -->
-            
+            <section class="contact">
+                <h2 class="section-title">Contato</h2>
+                <p>Entre em contato conosco nas redes sociais:</p>
+                <ul class="social-links">
+                <li><a href="https://www.instagram.com/o_tal_do_pirata_ofc" target="_blank">Instagram</a></li>
+                <li><a href="https://wa.me/48999626351" target="_blank">WhatsApp</a></li>
+                <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                </ul>
+             </section>
+ 
         </div>
     </div>
 
