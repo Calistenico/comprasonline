@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -123,8 +124,8 @@
         /* Estilos adicionais aqui */
         .spotify-player {
             border-radius: 5px;
-            width: 32%;
-            height: 70px;
+            width: 22%;
+            height: 80px;
         }
         .product-price {
             font-size: 24px;
@@ -201,9 +202,44 @@
         <div class="tab" onclick="showProducts('celulares')">📱 Celulares</div>
         <a href="https://calistenico.github.io/cursos/" target="_blank">💡 Cursos</a>
         <div class="tab" onclick="showProducts('diversos')">🛠️ Em Construção 🛠️</div>
+        <div class="tab" onclick="showGames()">🎮 Jogos</div> <!-- Adicionada aba "Jogos" -->
         <iframe class="spotify-player" src="https://open.spotify.com/embed/playlist/5HeGcD3F9k02tiXGjnnCVe?utm_source=generator&theme=0" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
     </div>
+    <script>
+        function showGames() {
+            // Primeiro, oculte todos os produtos
+            var products = document.querySelectorAll('.product');
+            products.forEach(function(product) {
+                product.style.display = 'none';
+            });
+    
+            // Em seguida, exiba o jogo incorporado
+            var gameFrame = document.getElementById('game-frame');
+            if (gameFrame) {
+                gameFrame.style.display = 'block';
+            } else {
+                // Se o iframe do jogo não existir, crie-o e adicione-o ao documento
+                var gameContainer = document.querySelector('.container');
+                var iframe = document.createElement('iframe');
+                iframe.id = 'game-frame';
+                iframe.src = 'https://www.newgrounds.com/portal/view/894678'; // URL do jogo
+                iframe.style.border = 'none';
+                iframe.style.width = '100%';
+                iframe.style.height = '500px'; // Ajuste a altura conforme necessário
+                gameContainer.appendChild(iframe);
+
+                var gameContainer = document.querySelector('.container');
+                var iframe = document.createElement('iframe');
+                iframe.id = 'game-frame';
+                iframe.src = 'https://www.newgrounds.com/portal/view/890871'; // URL do jogo
+                iframe.style.border = 'none';
+                iframe.style.width = '100%';
+                iframe.style.height = '500px'; // Ajuste a altura conforme necessário
+                gameContainer.appendChild(iframe);
+            }
+        }
+    </script>
+    
      
     <!-- Produtos -->
     <div class="container">
