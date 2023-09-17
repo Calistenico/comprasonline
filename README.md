@@ -2,6 +2,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Sua Página de Venda</title>
     <style>
         body {
@@ -123,6 +125,21 @@
             color: #FF5733; /* Cor do texto */
             margin-top: 10px; /* Espaçamento superior */
         }
+        /* Estilos para telas pequenas (por exemplo, smartphones) */
+@media (max-width: 768px) {
+    /* Estilos para telas menores aqui */
+}
+
+/* Estilos para telas médias (por exemplo, tablets) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* Estilos para telas médias aqui */
+}
+
+/* Estilos para telas grandes (por exemplo, desktops) */
+@media (min-width: 1025px) {
+    /* Estilos para telas grandes aqui */
+}
+
     </style>
 </head>
 <body>
