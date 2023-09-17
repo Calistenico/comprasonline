@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
+<html lang="Br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -648,30 +647,5 @@
         // Mostrar os produtos da categoria "Celulares" por padrão ao carregar a página
         showProducts('inicio');
     </script>
-</body>
-</html>
-
-    <!-- Restante do seu código HTML -->
-    <!-- ... -->
-</body>
-</html>
-
-    </div>
-
-</div>
-
-<script>
-    // Função para mostrar produtos com a classe especificada
-    function showProducts(className) {
-        const products = document.querySelectorAll('.product');
-        products.forEach(product => {
-            product.style.display = 'none';
-        });
-        const selectedProducts = document.querySelectorAll('.' + className);
-        selectedProducts.forEach(product => {
-            product.style.display = 'block';
-        });
-    }
-</script>
 </body>
 </html>
