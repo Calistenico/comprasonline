@@ -123,8 +123,8 @@
         /* Estilos adicionais aqui */
         .spotify-player {
             border-radius: 5px;
-            width: 22%;
-            height: 80px;
+            width: 32%;
+            height: 70px;
         }
         .product-price {
             font-size: 24px;
