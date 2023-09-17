@@ -150,8 +150,8 @@
     <!-- Adicione o player do Spotify no canto esquerdo do topo da página -->
     <iframe class="spotify-player" src="https://open.spotify.com/embed/playlist/5HeGcD3F9k02tiXGjnnCVe?utm_source=generator&theme=0" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
-    <p style="text-align: center; margin-top: 10px;">Todos os produtos do site são produtos afiliados à lojas com entregas em todo o território Brasileiro.</p>
-    
+   <p style="text-align: center; margin-top: 10px; font-weight: bold; color: #fffefe;">Todos os produtos do site são produtos afiliados à lojas com entregas em todo o território Brasileiro.</p>
+  
     <div class="tabs">
         <div class="tab" onclick="showProducts('inicio')">👜Inicio</div>
         <div class="tab" onclick="showProducts('utilitarios')">🖇️Utilitários</div>
