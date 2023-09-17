@@ -77,6 +77,7 @@
             position: relative;
         }
         
+        
         .product:hover {
             transform: scale(1.05);
         }
